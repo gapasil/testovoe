@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap');
+
+:root {
+  --bg: #0e1016;
+  --panel: #161922;
+  --input: #1c2030;
+  --border: rgba(255, 255, 255, 0.08);
+  --text: #f3f5fb;
+  --muted: #9aa3b8;
+  --accent: #7b93ff;
+  --incoming: #232838;
+  --emoji-font: 'Manrope', 'Segoe UI Emoji', 'Apple Color Emoji', 'Noto Color Emoji',
+    'Android Emoji', 'EmojiOne Color', 'Twemoji Mozilla', system-ui, sans-serif;
+  font-family: var(--emoji-font);
+  line-height: 1.5;
+  font-weight: 400;
+  color: var(--text);
+  background: var(--bg);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  margin: 0;
+  height: 100%;
+  max-height: 100dvh;
+  overflow: hidden;
+}
+
+body {
+  min-width: 320px;
+}
+
+button,
+input,
+textarea {
+  font: inherit;
+  font-family: var(--emoji-font);
+}
